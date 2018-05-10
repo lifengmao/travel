@@ -23,10 +23,7 @@ export default {
   name: 'CommonGallery',
   props: {
     imgs: {
-      type: Array,
-      default () {
-        return []
-      }
+      type: Array
     }
   },
   data () {
